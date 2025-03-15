@@ -77,6 +77,41 @@ body {
     max-width: 400px;
 }
 
-.footer {
+.cards-information {
+    text-align: center;
+    margin: 36px;
+}
 
+.cards-heading {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 36px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.card{
+    max-width: 300px;
+    width: 100%;
+}
+
+.card img{
+    border-radius: 16px;
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.footer {
+    color: #F9FAF8;
+    background-color: #1F2937;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
