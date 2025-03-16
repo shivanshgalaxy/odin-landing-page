@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200;300;700;900&display=swap');
 
 
 body {
@@ -36,6 +36,8 @@ body {
 }
 
 .content {
+    display: flex;
+    flex-direction: column;
     flex: 1;
 }
 
@@ -79,7 +81,7 @@ body {
 
 .cards-information {
     text-align: center;
-    margin: 36px;
+    margin: 36px 36px 150px;
 }
 
 .cards-heading {
@@ -92,12 +94,12 @@ body {
 .cards-container {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 24px;
 }
 
 .card{
-    max-width: 300px;
-    width: 100%;
+    max-width: 350px;
 }
 
 .card img{
@@ -107,10 +109,75 @@ body {
     object-fit: cover;
 }
 
+.quote-container {
+    display: flex;
+    justify-content: center;
+    background-color: #e5e7eb;
+    padding: 64px;
+}
+
+.quote-one, .quote-two {
+    max-width: 500px;
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.quote-one {
+    text-align: right;
+}
+
+.quote-attribute {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: right;
+}
+
+.sign-up-container {
+    flex: 1 1 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-box {
+    flex: 1;
+    border-radius: 10px;
+    max-width: 900px;
+    padding: 50px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sign-up-content {
+    color: #F9FAF8;
+}
+
+.sign-up-content-header {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.sign-up-content-slogan {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.sign-up-button {
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #F9FAF8;
+    padding: 0 32px;
+}
+
 .footer {
     color: #F9FAF8;
     background-color: #1F2937;
-    padding: 12px;
+    padding: 32px;
     display: flex;
     justify-content: center;
     align-items: center;
